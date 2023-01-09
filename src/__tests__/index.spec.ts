@@ -21,6 +21,6 @@ describe('PropString Suite Tests', () => {
       test: 'John Doe',
     })).toBe(null);
     expect(sut.execute('', {})).toBe(null);
-    expect(sut.execute(true as undefined, {})).toBe(null);
+    expect(sut.execute(undefined, {})).toBe(null);
   });
 });

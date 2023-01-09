@@ -1,1 +1,1 @@
-export { default as PropString } from './constants/propString';
+export { default as PropString } from './constants';

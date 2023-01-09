@@ -1,6 +1,3 @@
-database:
-	docker compose -f docker-compose.yml up -d redis
-
 up:
 	docker compose -f docker-compose.yml up
 
