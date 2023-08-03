@@ -23,4 +23,13 @@ describe('PropString Suite Tests', () => {
     expect(sut.execute('', {})).toBe(null);
     expect(sut.execute(undefined, {})).toBe(null);
   });
+
+  test('should update value property', async () => {
+    const { sut } = setupSut();
+    expect(sut.execute('test.name', {
+      test: {
+        name: 'John Doe',
+      },
+    }, 'GuilhermeSantos001')).toBe('GuilhermeSantos001');
+  });
 });
