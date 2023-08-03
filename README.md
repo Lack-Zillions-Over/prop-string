@@ -1,6 +1,6 @@
 # LZO: Prop String
 
-> Accesses the object's properties via string.
+> Accesses and Updates the object's properties via string.
 
 [![Sponsor][sponsor-badge]][sponsor]
 [![Commitizen friendly][commitizen-badge]][commitizen]
@@ -21,6 +21,7 @@ npm install lzo-prop-string OR yarn add lzo-prop-string
 import { PropString } from 'lzo-prop-string';
 
 PropString.execute('test.name', { test: { name: 'Lack-Zillions-Over' } }); // Lack-Zillions-Over
+PropString.execute('test.name', { test: { name: 'John Doe' } }, 'GuilhermeSanto001'); // GuilhermeSantos001
 ```
 
 ## API
@@ -28,6 +29,10 @@ PropString.execute('test.name', { test: { name: 'Lack-Zillions-Over' } }); // La
 `PropString.execute<T, R>(text: string, object: T): R`
 
 > Get value of property in object by string
+
+`PropString.execute<T, R>(text: string, object: T, update: R): R`
+
+> Update value of property in object by string
 
 ## Backers & Sponsors
 
