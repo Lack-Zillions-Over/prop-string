@@ -2,7 +2,7 @@ class PropString {
   /**
    * @description Get value of property in object by string
    */
-  public execute<T, R>(text: string, object: T): R {
+  public execute<T, R>(text: string, object: T, update?: R): R {
     if (text === '')
       return null;
 
@@ -16,7 +16,7 @@ class PropString {
         value = object[key];
       } else {
         if (!value[key]) {
-          error = `Prop "${key}" not found in locale."`;
+          error = `Prop "${key}" not found in object."`;
           break;
         }
 
@@ -26,7 +26,11 @@ class PropString {
 
     if (error) return null;
 
-    return value as R;
+    if (update) {
+      value = update;
+    }
+
+    return update ? update : value;
   }
 }
 
