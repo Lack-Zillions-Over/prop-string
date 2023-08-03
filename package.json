@@ -1,6 +1,6 @@
 {
   "name": "lzo-prop-string",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Accesses the object's properties via string.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
