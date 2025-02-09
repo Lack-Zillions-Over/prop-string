@@ -9,7 +9,10 @@
     "npm": ">=10.9.0",
     "node": ">=22.12.0"
   },
-  "repository": "git://github.com/Lack-Zillions-Over/prop-string.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Lack-Zillions-Over/prop-string.git"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
