@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/Lack-Zillions-Over/prop-string/compare/v1.1.1...v1.1.2) (2025-02-09)
+
+
+### Build System
+
+* **engines:** Updated versions ([4e9b9ac](https://github.com/Lack-Zillions-Over/prop-string/commit/4e9b9ac39935889699d9818f8d160f20abf951e8))
+
 ### [1.1.1](https://github.com/Lack-Zillions-Over/prop-string/compare/v1.1.0...v1.1.1) (2025-02-09)
 
 
