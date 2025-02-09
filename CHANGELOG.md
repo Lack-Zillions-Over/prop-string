@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/Lack-Zillions-Over/prop-string/compare/v1.1.3...v1.1.4) (2025-02-09)
+
+
+### CI
+
+* Update scripts of pipelines ([0732840](https://github.com/Lack-Zillions-Over/prop-string/commit/07328408986fd7f4c66f74d8b85217e55011a5ed))
+
 ### [1.1.3](https://github.com/Lack-Zillions-Over/prop-string/compare/v1.1.2...v1.1.3) (2025-02-09)
 
 
